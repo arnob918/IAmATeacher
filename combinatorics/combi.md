@@ -1,37 +1,25 @@
 # Combinatorics Notes
 
-1. যখন থেকে নাম্বার সিস্টেম আবিষ্কার হইছে তখন থেকেই বা বলতে গেলে তারও আগে থেকেই কাউন্টিং মানুষের খুব পছন্দের একটা টপিক। মানুষেরা অনেক অনেক কাজে এখন এই কাউন্টিং ইউজ করে।
-2. 
-3. 
 
 ### 1. addition / multiplication principle
 
-Picking Teams (Moderate)
-Problem:
-A company wants to select a team of 3 people from 5 developers and 4 designers. However, at least one developer must be included. How many ways can the team be formed?
+* If we have $A$ number of ways of doing something and $B$ number of ways of doing another thing and we cannot do both at the same time, then there are $A+B$ ways to choose one of the actions.
+* if there are $A$ ways of doing something and $B$ ways of doing another thing, then there are $A \times B$ ways of performing both actions.
+* Addition when you can not do both and Multiplication when you have to do both, normally, one after another.
 
-Explanation:
-This requires both addition and multiplication principles.
+problems:
+1. There are $X$ ways to go from point $A$ to $B$ and $Y$ ways from point $B$ to $C$. Then there are total $X \times Y$ ways to go from $A$ to $C$.
+2. https://codeforces.com/contest/131/problem/B
 
-Case 1: 1 developer, 2 designers.
-Case 2: 2 developers, 1 designer.
-Case 3: 3 developers, 0 designers.
-The total is the sum of combinations in all cases.
-
-
-Arranging Guests at a Dinner Table (Challenging)
-Problem:
-You are hosting a dinner for 8 guests, and there are two rectangular tables. Each table can seat up to 4 guests. In how many ways can the guests be seated such that no table is empty?
-
-Explanation:
-
-Split guests into two groups of 4: 8C4
-Arrange each group: 4!×4!.
-Multiply by 2 for table interchangeability.
 
 ### 2. factorial, permutation and combination
+problems:
+1. https://www.spoj.com/problems/ADATEAMS/
 
-
+* #### simulating the problem for small scenario.
+problems:
+1. https://codeforces.com/contest/1178/problem/C
+2. 
 ### 3. overcounting / undercounting
 
 
