@@ -21,6 +21,7 @@ problems:
 1. https://codeforces.com/contest/1178/problem/C
 2. 
 ### 3. overcounting / undercounting
+* burnside lemma
 
 
 ### 4. modular operations
@@ -33,4 +34,6 @@ problems:
 
 
 ### 7. pigeonhole
+
+
 
