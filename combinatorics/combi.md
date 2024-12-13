@@ -10,30 +10,42 @@
 problems:
 1. There are $X$ ways to go from point $A$ to $B$ and $Y$ ways from point $B$ to $C$. Then there are total $X \times Y$ ways to go from $A$ to $C$.
 2. https://codeforces.com/contest/131/problem/B
+3. https://codeforces.com/problemset/problem/617/B
 
 
-### 2. factorial, permutation and combination
+### 2. nCr
+Calculate nCr:
+* if we need to calculate the actual value
+    * in each step multiply with (n-i) and divide by i, to avoid overflow, O(r) 
+
 problems:
-1. https://www.spoj.com/problems/ADATEAMS/
+1. https://cses.fi/problemset/task/1715 (vs - B) MISSISSIPI
+1. https://cses.fi/problemset/task/1079 (vs - A) nCr
+2. https://www.spoj.com/problems/ADATEAMS/ (vs - G) nCr * multiplication principle
+2. https://www.spoj.com/problems/UCV2013E/en/ (vs - H) Mississipi on grid
+1. 
 
 * #### simulating the problem for small scenario.
 problems:
 1. https://codeforces.com/contest/1178/problem/C
 2. 
-### 3. overcounting / undercounting
-* burnside lemma
+
+* #### overcounting / undercounting
+1. burnside lemma
 
 
 ### 4. modular operations
 
-
-### 5. binomial theorem
-
+### 5. stars and bars
+problems:
+1. https://cses.fi/problemset/task/1716 (vs - C)
 
 ### 6. inclusion exclusion
 
 
-### 7. pigeonhole
+### 7. derangement
+problems: 
+1. https://cses.fi/problemset/task/1717 (vs - F)
 
 
 
